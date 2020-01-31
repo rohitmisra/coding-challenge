@@ -1,0 +1,16 @@
+# testdb url is jdbc:h2:mem:testdb
+
+spring:
+  h2:
+    console:
+      enabled: true
+  jackson:
+    serialization:
+       WRITE_DATES_AS_TIMESTAMPS: false
+       FAIL_ON_EMPTY_BEANS: false
+    time-zone: UTC
+    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+

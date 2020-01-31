@@ -1,4 +1,6 @@
 # testdb url is jdbc:h2:mem:testdb
+server:
+  contextPath: /
 
 spring:
   h2:
@@ -11,6 +13,5 @@ spring:
     time-zone: UTC
     date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
 springdoc:
-  swagger-ui:
-    path: /swagger-ui-custom.html
-
+  api-docs:
+    path: /api-docs

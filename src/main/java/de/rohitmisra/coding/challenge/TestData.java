@@ -3,7 +3,6 @@ package de.rohitmisra.coding.challenge;
 import de.rohitmisra.coding.challenge.controller.dto.CategoryRequest;
 import de.rohitmisra.coding.challenge.controller.dto.CategoryResponse;
 import de.rohitmisra.coding.challenge.controller.dto.ProductRequest;
-import de.rohitmisra.coding.challenge.jpa.domain.Category;
 import de.rohitmisra.coding.challenge.service.CategoryService;
 import de.rohitmisra.coding.challenge.service.ProductService;
 import org.slf4j.Logger;

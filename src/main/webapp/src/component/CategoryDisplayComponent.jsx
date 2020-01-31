@@ -16,7 +16,7 @@ class CategoryDisplayComponent extends Component {
     }
 
     refreshCatalog() {
-        fetch("http://localhost:8080/api/v1/category/productTree")
+        fetch("/api/v1/category/productTree")
             .then(response => response.json())
             .then(data => {
                 this.setState({ catalog: data });
